@@ -1,0 +1,34 @@
+.vdo{
+  height: 184px;
+  
+}
+.rlcontent{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: solid;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 10px;
+  box-shadow: rgb(0 0 0 / 80%) 0px 10px 50px;
+}
+.p1{
+  margin-left: 10px;
+  margin-top: 7px;
+}
+body{
+  background-color: #f1f1f1;
+}
+.topbar{
+  border: solid;
+  border-radius: 5px;
+  background-color: lightyellow;
+  
+}
+.h35{
+  border: solid;
+  background-color: #fff;
+}
+.Apk{
+  Height: 100px
+}

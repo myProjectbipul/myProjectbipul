@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="navi.css">
+  <title>Contact</title>
+</head>
+
+
+<body style="font-size: 11pt; ">
+    <div class="navi" style="border: solid;
+  height: 35px;
+  border-radius: 7px;
+  background-color: grey; ">
+    <div class="navi_content" style="margin-top: 6px;">
+    <span style="color: blueviolet">My Dairy</span>
+    <a  style="margin-left: 3px; text-decoration: none; color: black;" class="hank" href="/index.html">Home</a>
+     <a class="hank" style="margin-left: 3px;">About</a>
+     <a class="hank" style="margin-left: 3px;">Contact</a>
+     <a class="hank" style="margin-left: 3px;">Explore</a>
+     <input style="height: 12px; width: 60px;" type="search" class="input">
+     <span>🔍</span>
+    </div>
+    </div>
+    <div class="social1" >
+      <div class="mar">
+      <a class="social">FaceBook</a>
+      </div>
+      <div class="mar">
+      <a class="social">Instagram</a>
+      </div>
+      <div class="mar">
+      <a class="social">Threads</a>
+      </div>
+      <div class="mar">
+     
+      
+      
+      
+      <a class="social">TiTok</a>
+      </div>
+      <p> I'll provide my some social accounts for contact. that way you can contact me. As a friend maybe i will reply you. and don't be laugh about my annoying throght because it help my brain relaxing</p>
+      <p>This is my Phone number </p>
+      <p>Number:01304839196</p>
+      <p>Comment Box:</p>
+      <div>
+        <input id="input" type="text" value="">
+        <button class="comsub" onclick="comment()">Send</button>
+      </div>
+      <div class="commentArea">
+        
+      </div>
+      
+    </div>
+    <script>
+    function comment(){
+      var input = document.getElementById("input").value;
+      document.getElementById("input").value ="";
+      var combox = document.querySelector(".commentArea");
+      var commen = input; 
+      var result = `<p>@Unknown: ${commen} <p>`;
+      
+      combox.innerHTML += result;
+      
+    }
+    </script>
+</body>
+
+</html>
